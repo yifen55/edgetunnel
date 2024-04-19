@@ -27,7 +27,7 @@ Telegram交流群：[@CMLiussss](https://t.me/CMLiussss)
 作者保留随时更新本免责声明的权利，且不另行通知。最新的免责声明版本将会在该项目的 GitHub 页面上发布。
 
 ## 风险提示
-- 通过提交虚假的节点配置给订阅服务，避免节点配置信息泄露。***[#6](https://github.com/cmliu/edgetunnel/pull/6) 感谢 [fatkun](https://github.com/fatkun)***
+- 通过提交虚假的节点配置给订阅服务，避免节点配置信息泄露。
 - 另外，您也可以选择自行部署 [WorkerVless2sub 订阅生成服务](https://github.com/cmliu/WorkerVless2sub)，这样既可以利用订阅生成器的便利。
    
 ## Workers 部署方法 [视频教程](https://www.youtube.com/watch?v=LeT4jQUh8ok&t=83s)
@@ -124,7 +124,7 @@ Telegram交流群：[@CMLiussss](https://t.me/CMLiussss)
 | 变量名 | 示例 | 备注 | YT |
 |--------|---------|-----|-----|
 | UUID | 90cd4a77-141a-43c9-991b-08263cfe9c10 | Powershell -NoExit -Command "[guid]::NewGuid()"| [Video](https://www.youtube.com/watch?v=s91zjpw3-P8&t=72s) |
-| PROXYIP | proxyip.fxxk.dedyn.io | 备选作为访问CloudFlareCDN站点的代理节点 | [Video](https://www.youtube.com/watch?v=s91zjpw3-P8&t=166s) |
+| PROXYIP | proxyip.fxxk.dedyn.io | 备选作为访问CloudFlareCDN站点的代理节点(支持多ProxyIP, ProxyIP之间使用`,`作间隔) | [Video](https://www.youtube.com/watch?v=s91zjpw3-P8&t=166s) |
 | SOCKS5  | user:password@127.0.0.1:1080 | 优先作为访问CloudFlareCDN站点的SOCKS5代理 | [Video](https://www.youtube.com/watch?v=s91zjpw3-P8&t=826s) |
 | SUB | sub.cmliussss.workers.dev | 内建域名、IP节点信息的订阅生成器地址 | [Video](https://www.youtube.com/watch?v=s91zjpw3-P8&t=1193s) |
 | SUBAPI | api.v1.mk | clash、singbox等 订阅转换后端 | [Video](https://www.youtube.com/watch?v=s91zjpw3-P8&t=1446s) |
@@ -143,4 +143,4 @@ Telegram交流群：[@CMLiussss](https://t.me/CMLiussss)
 
 
 # 感谢
-[zizifn](https://github.com/zizifn/edgetunnel)、[3Kmfi6HP](https://github.com/3Kmfi6HP/EDtunnel)、[Stanley-baby](https://github.com/Stanley-baby)、[ACL4SSR](https://github.com/ACL4SSR)、[SHIJS1999](https://github.com/SHIJS1999/cloudflare-worker-vless-ip)、[fatkun](https://github.com/fatkun)
+[zizifn](https://github.com/zizifn/edgetunnel)、[3Kmfi6HP](https://github.com/3Kmfi6HP/EDtunnel)、[Stanley-baby](https://github.com/Stanley-baby)、[ACL4SSR](https://github.com/ACL4SSR)、[SHIJS1999](https://github.com/SHIJS1999/cloudflare-worker-vless-ip)
